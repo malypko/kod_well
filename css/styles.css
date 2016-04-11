@@ -1,0 +1,311 @@
+html { 
+  background-color:#fff;
+}
+@font-face {
+    font-family: Noto-Sans;
+    src: url('/kodwell/fonts/notosans.ttf'); 
+}
+@font-face {
+    font-family: Noto-Sans-Bold;
+    src: url('/kodwell/fonts/notosansbold.ttf'); 
+}
+@font-face {
+    font-family: Noto-Sans-Bold-Italic;
+    src: url('/kodwell/fonts/notosansbolditalic.ttf'); 
+}
+@font-face {
+    font-family: Noto-Sans-Italic;
+    src: url('/kodwell/fonts/notosansitalic.ttf'); 
+}
+form .error{
+  background-color:rgba(241,83,86,0.82) !important;
+  border-color:#eb3030;border-width:1px;
+  color:#fff
+}
+form .error:focus {
+  color:#000;
+}
+
+form label.error{
+  font-weight:500;
+  color:#000
+}
+body { 
+  font-family:  Noto-Sans !important;
+  background-color: transparent !important;
+  position: relative;
+}
+
+.pt10 { padding-top: 10px;}
+.pt12 { padding-top: 12px;}
+.pt24 { padding-top: 24px;}
+.pt36 { padding-top: 36px;}
+.pt71 { padding-top: 71px;}
+.pr20 { padding-right: 20px;}
+.pl40 { padding-left: 40px !important;}
+.pl428 { padding-left: 428px;}
+.ml60 { margin-left: 60px;}
+.ml96 { margin-left: 96px;}
+.ml105 { margin-left: 105px;}
+.ml122 { margin-left: 122px;}
+.ml114 { margin-left: 114px;}
+.ml157 {margin-left: 157px;}
+.ml224 {margin-left: 224px;}
+.ml316 {margin-left: 316px;}
+
+
+.app-wrapper { 
+  min-width: 990px;
+  overflow: hidden; 
+}
+
+.container { 
+  position: relative;
+  width: 970px !important;
+}
+.bg-first {
+  background: transparent url('/kodwell/images/fb-bg.jpg') 50% 0 no-repeat;
+  position: relative;
+}
+/*HEADER*/
+.navbar {
+  background-color: #fff;
+  height: 101px;
+}
+
+.header-block {
+  height: 900px;
+  /*background: url('/kodwell/images/fb-bg.png') no-repeat scroll 0 -52px; */
+  /*background: url('/kodwell/images/fb-bg.jpg') no-repeat;
+  position: relative;*/
+}
+.header {
+  padding: 24px 0;
+  color: white;
+  font-size: 18px;
+}
+a {
+    color: white;
+}
+
+.header a:hover {
+  text-decoration: none;
+}
+
+.header .logo {
+  background: url('/kodwell/images/big-logo.png') no-repeat;
+  color: black;
+  font-family: Noto-Sans-Bold;
+  font-size: 22px;
+  text-align: center;
+  width: 180px; 
+  height: 60px;
+  display: block; 
+}
+
+.header .h-text {
+  font-family: Noto-Sans-Bold;
+  /*width: 385px;*/
+  padding-top: 24px;
+  padding-left: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+.header .icon {
+  padding-top: 0px;
+  padding-left: 50px;
+}
+
+.red-phone {
+  background: transparent url('/kodwell/images/frame-phone.png') 50% 0 no-repeat;
+  min-height: 400px;
+  margin-top: 140px;
+}
+.header .hb-text {
+  font-family: Noto-Sans-Bold;
+  font-size: 96px;
+  text-align: center;
+  padding-top: 70px;
+}
+.header .hs-text {
+  font-family: Noto-Sans;
+  font-size: 17px;
+  text-align: center;
+}
+.bt-down {
+  background: transparent url('/kodwell/images/down.png') no-repeat;
+  min-height: 51px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 14px; 
+  height: 51px;
+  display: block; 
+ 
+}
+
+/*FIRST BLOCK*/
+.first-block {
+  background: transparent url('/kodwell/images/bg-color.png') 50% 0 repeat;
+  min-height: 650px;
+  position: relative;
+}
+.first-block .h-text {
+  font-family: Noto-Sans;
+  color: white;
+  font-size: 72px;
+  text-align: center;
+  padding-top: 10px;
+}
+.first-block .hb-text {
+  font-family: Noto-Sans-Bold;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 26px;
+  margin-left: 158px;
+}
+.first-block .hs-text {
+  font-family: Noto-Sans;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  width: 275px;
+}
+.first-block .logo-list {
+  padding-top: 69px;
+} 
+.logo-list .bl-img {
+  margin-left: 164px;
+}
+.first-block .circle-list {
+  padding-top: 26px;
+} 
+.circle-list .cl-img {
+  margin-left: 208px;
+}
+.circle-list .cl-img-b {
+  margin-left: 252px;
+}
+/*SECOND BLOCK*/
+.second-block {
+  background:#fff;
+  position: relative;
+}
+.second-block .h-text {
+  font-family: Noto-Sans;
+  color: black;
+  font-size: 72px;
+  text-align: center;
+  padding-top: 10px;
+}
+.second-block .hs-text {
+  font-family: Noto-Sans; 
+  font-size: 18;
+  margin-top: 36px; 
+  margin-left: 145px; 
+  width: 650px; 
+  text-align: center; 
+}
+.second-block .hn-text-first {
+  font-family: Noto-Sans;
+  font-size: 48px;
+  color: red;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.second-block .hn-text-second {
+  font-family: Noto-Sans;
+  font-size: 48px;
+  color: red;
+  padding-left: 58px;
+  padding-right: 58px;
+}
+.second-block .hn-text-third {
+  font-family: Noto-Sans;
+  font-size: 48px;
+  color: red;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.second-block .hn-text-fourth {
+  font-family: Noto-Sans;
+  font-size: 48px;
+  color: red;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.second-block .hs-text-first {
+  font-family: Noto-Sans;
+  font-size: 15px;
+  text-align: center;
+  width: 200px;
+}
+.second-block .hs-text-second {
+  font-family: Noto-Sans;
+  font-size: 15px;
+  text-align: center;
+  width: 221px;
+  padding-left: 51px;
+}
+.second-block .hs-text-third {
+  font-family: Noto-Sans;
+  font-size: 15px;
+  text-align: center;
+  width: 235px;
+  padding-left: 49px;
+}
+.second-block .hs-text-fourth {
+  font-family: Noto-Sans;
+  font-size: 15px;
+  text-align: center;
+  width: 188px;
+  padding-left: 44px;
+}
+.second-block .hs-text-pd {
+  padding-top: 10px; 
+  padding-bottom: 72px;
+}
+.second-block .circle-list {
+  padding-top: 26px;
+  margin-left: 468px;
+} 
+/*THIRD BLOCK*/
+.third-block {
+  background:#f0f3f5;
+  position: relative;
+  padding-bottom: 36px;
+}
+.third-block .h-text {
+  font-family: Noto-Sans;
+  color: black;
+  font-size: 72px;
+  text-align: center;
+  padding-top: 10px;
+}
+.third-block .circle-list {
+  padding-top: 26px;
+  margin-left: 468px;
+} 
+.third-block .hb-text {
+  font-family: Noto-Sans;
+  color: #37c8a0;
+  font-size: 21px;
+  text-align: center;
+  padding-top: 23px;
+}
+.third-block .hs-text {
+  font-family: Noto-Sans; 
+  font-size: 18;
+  text-align: center;
+  margin-top: 36px; 
+  margin-left: 145px; 
+  width: 650px; 
+}
+
+/*FOURTH BLOCK*/
+.fourth-block {
+   background: transparent url('/kodwell/images/bg-color.png') 50% 0 repeat;
+  min-height: 90px;
+  position: relative;
+}

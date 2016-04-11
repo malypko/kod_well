@@ -1,0 +1,32 @@
+.btn-get-catalog {
+  color: #FFFFFF;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #FFA103;
+  *background-color: #FFA103;
+  background-image: -moz-linear-gradient(top, #ffc45f, #FFA103);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffc45f), to(#FFA103));
+  background-image: -webkit-linear-gradient(top, #ffc45f, #FFA103);
+  background-image: -o-linear-gradient(top, #ffc45f, #FFA103);
+  background-image: linear-gradient(to bottom, #ffc45f, #FFA103) !important;
+  background-repeat: repeat-x;
+  border-color: #FFA103;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc45f', endColorstr='#FFA103', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  width: 100%;
+  height: 53px;
+  font-family: PTSans-Bold;
+  font-size: 16px !important;
+  text-transform: uppercase;
+}
+.btn-get-catalog:hover,
+.btn-get-catalog:focus,
+.btn-get-catalog:active,
+.btn-get-catalog.active,
+.btn-get-catalog.disabled,
+.btn-get-catalog[disabled] {
+  color: #FFFFFF !important;
+  background-color: #FFA103 !important;
+  background-image: none !important;
+  /**background-color: #003bb3 !important;*/
+}
